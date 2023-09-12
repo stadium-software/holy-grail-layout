@@ -1,0 +1,12 @@
+:root {
+    --top-bar-height: 50px;
+    --top-bar-background-color: #cccccc;
+
+    --sidebar-background-color: #ececec;
+    --sidebar-padding: 10px;
+    
+    --content-padding: 20px;
+    --content-background-color: lightblue;
+    
+    --footer-display: none;
+}
