@@ -1,8 +1,8 @@
-body {
+html body {
     overflow: hidden;
 }
 
-.container {
+html .container {
     padding: 0;
     margin-bottom: 0;
 }
@@ -40,11 +40,11 @@ body {
     padding: var(--sidebar-padding);
 }
 
-.page-content {
+html .page-content {
     min-height: 100%;
     padding: var(--content-padding);
 }
 
-#footer {
+html #footer {
     display: var(--footer-display);
 }
