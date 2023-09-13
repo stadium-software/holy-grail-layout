@@ -23,8 +23,7 @@ Back in the days before CSS had Flexbox and Grid displays, this layout was frequ
 9. Drag a *Flexbox* control into the "ContentGrid" control and name it "SideBarFlexbox"
 10. Add a class called "sidebar-flex" to the "SideBarFlexbox" control *Classes* property 
 11. Set the *Direction* property of the "SideBarFlexbox" control to *Column*
-12. Uncheck the *Inline* property of the "SideBarFlexbox" control
-13. Drag the *PageContentPlaceholder* control into the "ContentGrid" control and place it to the right of the "SideBarFlexbox" control
+12. Drag the *PageContentPlaceholder* control into the "ContentGrid" control and place it to the right of the "SideBarFlexbox" control
 
 ![](images/default-template-designer-view.png)
 
