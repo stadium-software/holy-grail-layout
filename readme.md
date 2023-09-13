@@ -63,9 +63,10 @@ document.querySelector("head").appendChild(el2);
 ## Upgrading
 To upgrade this module
 1. Pull the latest repo
-2. If you have made changes to the *holy-grail-layout-variables.css* file in your local repo, merge them
+2. If you have made changes to the *holy-grail-layout-variables.css* file in your local repo, merge the two files
 3. You can drag the *holy-grail-layout.css* file into the EmbeddedFiles folder of your application as is
 4. Select "Overwrite" when prompted in Stadium
 5. Open the *holy-grail-layout-variables.css* file 
 6. If new variables were added, change the variables as you see fit 
 7. Drag the updated *holy-grail-layout-variables.css* file into the EmbeddedFiles folder of your application
+8. Select "Overwrite" again when prompted in Stadium
