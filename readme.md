@@ -12,8 +12,8 @@ Back in the days before CSS had Flexbox and Grid displays, this layout was frequ
 ## Application Setup
 1. Check the *Enable Style Sheet* checkbox in the application properties
 
-## Template Setup
-1. Drag a *Grid* control to a page and name it "MainGrid"
+## DefaultTemplate Setup
+1. Drag a *Grid* control to the DefaultTemplate and name it "MainGrid"
 2. Add a class called "main-grid" to the "MainGrid" control *Classes* property 
 4. Drag a *Flexbox* control into the "MainGrid" control and name it "TopBarFlexbox"
 5. Add a class called "topbar-flex" to the "TopBarFlexbox" control *Classes* property 
@@ -26,7 +26,7 @@ Back in the days before CSS had Flexbox and Grid displays, this layout was frequ
 12. Uncheck the *Inline* property of the "SideBarFlexbox" control
 13. Drag the *PageContentPlaceholder* control into the "ContentGrid" control and place it to the right of the "SideBarFlexbox" control
 
-![](default-template-designer-view.png)
+![](images/default-template-designer-view.png)
 
 ## Customising the layout
 The *holy-grail-layout-variables.css* file included in this repo contains a set of variables that can be changed to customise the holy-grail-layout popup. Follow the steps below to create a custom popup implementation 
