@@ -20,7 +20,7 @@ html .container {
     z-index: 10;
 }
 
-.content-grid {
+html .content-grid {
     display: grid;
     grid-template-columns: auto 1fr !important;
     min-height: calc(100vh - var(--top-bar-height));
