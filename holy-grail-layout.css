@@ -1,50 +1,52 @@
-html body {
-    overflow: hidden;
-}
+html {
+    & body {
+        overflow: hidden;
+    }
 
-html .container {
-    padding: 0;
-    margin-bottom: 0;
-}
+    & .container {
+        padding: 0;
+        margin-bottom: 0;
+    }
 
-.main-grid {
-    display: grid;
-    grid-template-rows: var(--top-bar-height) 1fr;
-    grid-template-columns: 1fr !important;
-}
+    & .main-grid {
+        display: grid;
+        grid-template-rows: var(--top-bar-height) 1fr;
+        grid-template-columns: 1fr !important;
+    }
 
-.topbar-flex {
-    background-color: var(--top-bar-background-color);
-    width: 100vw;
-    height: var(--top-bar-height);
-    z-index: 10;
-}
+    & .topbar-flex {
+        background-color: var(--top-bar-background-color);
+        width: 100vw;
+        height: var(--top-bar-height);
+        z-index: 10;
+    }
 
-html .content-grid {
-    display: grid;
-    grid-template-columns: auto 1fr !important;
-    min-height: calc(100vh - var(--top-bar-height));
-}
+    & .content-grid {
+        display: grid;
+        grid-template-columns: auto 1fr !important;
+        min-height: calc(100vh - var(--top-bar-height));
+    }
 
-.content-grid>.grid-item:nth-child(2) {
-    overflow: auto;
-    max-height: calc(100vh - var(--top-bar-height));
-    background-color: var(--content-background-color);
-}
+    & .content-grid>.grid-item:nth-child(2) {
+        overflow: auto;
+        max-height: calc(100vh - var(--top-bar-height));
+        background-color: var(--content-background-color);
+    }
 
-.sidebar-flex {
-    background-color: var(--sidebar-background-color);
-    width: auto;
-    height: 100%;
-    z-index: 10;
-    padding: var(--sidebar-padding);
-}
+    & .sidebar-flex {
+        background-color: var(--sidebar-background-color);
+        width: auto;
+        height: 100%;
+        z-index: 10;
+        padding: var(--sidebar-padding);
+    }
 
-html .page-content {
-    min-height: 100%;
-    padding: var(--content-padding);
-}
+    & .page-content {
+        min-height: 100%;
+        padding: var(--content-padding);
+    }
 
-html #footer {
-    display: var(--footer-display);
+    & #footer {
+        display: var(--footer-display);
+    }
 }
