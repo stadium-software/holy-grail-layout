@@ -39,7 +39,7 @@ How to apply the CSS to your application
 
 #### Stadium 6 (versions 6.6 and above)
 2. Paste the link tags below into the *head* property of your application
-```
+```html
 <link rel="stylesheet" href="{EmbeddedFiles}/CSS/holy-grail-layout-variables.css">
 <link rel="stylesheet" href="{EmbeddedFiles}/CSS/holy-grail-layout.css">
 ``` 
@@ -47,7 +47,7 @@ How to apply the CSS to your application
 #### Stadium 5
 2. Add a Javascript action into the Page.load event handler 
 3. Paste the Javascript below into the Javascript action Code Editor popup
-```
+```javascript
 let URL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname + "//";
 let el1 = document.createElement("link");
 el1.setAttribute("rel","stylesheet");
