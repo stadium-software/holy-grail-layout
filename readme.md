@@ -6,6 +6,11 @@ An example of how to achieve the layout below in Stadium
 ## Holy what?
 Back in the days before CSS had Flexbox and Grid displays, this layout was frequently requested, but very hard to create. It hence got the name Holy Grail Layout. 
 
+## Sample applications
+This repo contains 
+1. One Stadium 6.7 application: [HolyGrailLayout.sapz](Stadium6/HolyGrailLayout.sapz?raw=true)
+2. One Stadium 5 application: [HolyGrailStad5.sapz](Stadium5/HolyGrailStad5.sapz?raw=true)
+
 ## Version
 1.0
 
