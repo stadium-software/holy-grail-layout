@@ -1,53 +1,53 @@
 /* CSS version 1.0 https: //github.com/stadium-software/holy-grail-layout */
 html {
-    & body {
+    body {
         overflow: hidden;
     }
 
-    & .container {
+    .container {
         padding: 0;
         margin-bottom: 0;
     }
 
-    & .main-grid {
+    .main-grid {
         display: grid;
-        grid-template-rows: var(--top-bar-height) 1fr;
+        grid-template-rows: var(--top-bar-height, 50px) 1fr;
         grid-template-columns: 1fr !important;
     }
 
-    & .topbar-flex {
-        background-color: var(--top-bar-background-color);
+    .topbar-flex {
+        background-color: var(--top-bar-background-color, var(--DARKER-GREY));
         width: 100vw;
-        height: var(--top-bar-height);
+        height: var(--top-bar-height, 50px);
         z-index: 10;
     }
 
-    & .content-grid {
+    .content-grid {
         display: grid;
         grid-template-columns: auto 1fr !important;
-        min-height: calc(100vh - var(--top-bar-height));
+        min-height: calc(100vh - var(--top-bar-height, 50px));
     }
 
-    & .content-grid>.grid-item:nth-child(2) {
+    .content-grid>.grid-item:nth-child(2) {
         overflow: auto;
-        max-height: calc(100vh - var(--top-bar-height));
+        max-height: calc(100vh - var(--top-bar-height, 50px));
         background-color: var(--content-background-color);
     }
 
-    & .sidebar-flex {
-        background-color: var(--sidebar-background-color);
+    .sidebar-flex {
+        background-color: var(--sidebar-background-color, var(--LIGHT-GREY));
         width: auto;
         height: 100%;
         z-index: 10;
-        padding: var(--sidebar-padding);
+        padding: var(--sidebar-padding, 10px);
     }
 
-    & .page-content {
+    .page-content {
         min-height: 100%;
-        padding: var(--content-padding);
+        padding: var(--content-padding, 20px);
     }
 
-    & #footer {
-        display: var(--footer-display);
+    #footer {
+        display: var(--footer-display, none);
     }
 }
